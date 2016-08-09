@@ -1,7 +1,11 @@
 OUTPUT="SpriteSheetMaker"
 OUTPUTDIR="bin/"
 SOURCES=(
-	" src/SpriteSheetMaker.cpp"
+	" Main.cpp"
+	" src/App.cpp"
+	" src/Highlight.cpp"
+	" src/InputHandler.cpp"
+	" src/Utils.cpp"
 	)
 #SOURCES=()
 #for SOURCE in $(ls src/)
@@ -21,9 +25,9 @@ LIBS=(
 	" -lgcc"
 	)
 FLAGS=(
-	" -L/home/micah/Documents/Code/SpriteSheetMaker/bin/"
+	" -L./libs/"
 	" -std=c++11"
-	" -Wl,-rpath=./bin/,-rpath,./"
+	" -Wl,-rpath=./libs/,-rpath,./"
 	)
 echo g++ ${FLAGS[*]} ${INCLUDES[*]} ${SOURCES[*]} ${LIBS[*]} -o $OUTPUT
 g++ ${FLAGS[*]} ${INCLUDES[*]} ${SOURCES[*]} ${LIBS[*]} -o $OUTPUT

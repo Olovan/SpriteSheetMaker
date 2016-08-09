@@ -1,7 +1,7 @@
 #ifndef VEC2_H_BTPOKQ7A
 #define VEC2_H_BTPOKQ7A
 
-
+#include <string>
 
 
 namespace msgl { namespace core {
@@ -21,6 +21,7 @@ public:
 	Vec2 operator*(const Vec2 &other);
 	Vec2 operator/(const Vec2 &other);
 
+	std::string toString();
 	bool isPositive();
 
 private:

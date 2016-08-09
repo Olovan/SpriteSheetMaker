@@ -13,6 +13,8 @@ struct Window{
 
 	Window();
 	Window(unsigned int width, unsigned int height, std::string title);
+	void create(unsigned int width, unsigned int height, std::string title);
+	static void initGLFW();
 	bool shouldClose();
 	void resize(unsigned int width, unsigned int height);
 	void pollEvents();

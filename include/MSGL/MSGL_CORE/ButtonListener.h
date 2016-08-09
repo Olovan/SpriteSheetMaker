@@ -10,7 +10,6 @@ public:
 	ButtonListener ();
 	virtual ~ButtonListener ();
 	virtual void buttonPressed(int button, int mods) = 0;
-	virtual void buttonHeld(int button, int mods) = 0;
 	virtual void buttonReleased(int button, int mods) = 0;
 private:
 	/* data */

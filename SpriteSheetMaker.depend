@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1469993784 source:/home/micah/Documents/Code/SpriteSheetMaker/Main.cpp
+	<App.h>
+	<MSGL/msglCore.h>
+	<MSGL/msglGraphics.h>
+
+1470069953 /home/micah/Documents/Code/SpriteSheetMaker/include/App.h
+	<MSGL/msglCore.h>
+	<MSGL/msglGraphics.h>
+	<Highlight.h>
+	<InputHandler.h>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/msglCore.h
+	<MSGL/MSGL_CORE/Vec2.h>
+	<MSGL/MSGL_CORE/Vec2i.h>
+	<MSGL/MSGL_CORE/StringUtils.h>
+	<MSGL/MSGL_CORE/SpriteSheetImporter.h>
+	<MSGL/MSGL_CORE/Input.h>
+	<MSGL/MSGL_CORE/ButtonListener.h>
+	<MSGL/MSGL_CORE/KeyListener.h>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_CORE/Vec2.h
+	<string>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_CORE/Vec2i.h
+	<string>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_CORE/StringUtils.h
+	<vector>
+	<string>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_CORE/SpriteSheetImporter.h
+	<string>
+	<vector>
+	<MSGL/MSGL_GRAPHICS/Sprite.h>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_GRAPHICS/Sprite.h
+	<MSGL/MSGL_CORE/Vec2.h>
+	<MSGL/MSGL_CORE/Vec2i.h>
+	<MSGL/MSGL_GRAPHICS/Texture.h>
+	<GL/gl.h>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_GRAPHICS/Texture.h
+	<GL/gl.h>
+	<iostream>
+	<string>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_CORE/Input.h
+	<MSGL/MSGL_GRAPHICS/Window.h>
+	<MSGL/MSGL_CORE/Vec2.h>
+	<MSGL/MSGL_CORE/KeyListener.h>
+	<MSGL/MSGL_CORE/MouseListener.h>
+	<MSGL/MSGL_CORE/ButtonListener.h>
+	<GLFW/glfw3.h>
+	<vector>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_GRAPHICS/Window.h
+	<GLFW/glfw3.h>
+	<string>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_CORE/KeyListener.h
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_CORE/MouseListener.h
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_CORE/ButtonListener.h
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/msglGraphics.h
+	<MSGL/msglCore.h>
+	<MSGL/MSGL_GRAPHICS/Window.h>
+	<MSGL/MSGL_GRAPHICS/Texture.h>
+	<MSGL/MSGL_GRAPHICS/Sprite.h>
+	<MSGL/MSGL_GRAPHICS/SpriteAnimation.h>
+
+1470074555 /home/micah/Documents/Code/SpriteSheetMaker/include/MSGL/MSGL_GRAPHICS/SpriteAnimation.h
+	<MSGL/MSGL_GRAPHICS/Texture.h>
+	<MSGL/MSGL_GRAPHICS/Sprite.h>
+	<string>
+	<vector>
+
+1470073700 /home/micah/Documents/Code/SpriteSheetMaker/include/Highlight.h
+	<MSGL/msglCore.h>
+	<MSGL/msglGraphics.h>
+
+1470341174 /home/micah/Documents/Code/SpriteSheetMaker/include/InputHandler.h
+	<MSGL/msglCore.h>
+
+1470340919 source:/home/micah/Documents/Code/SpriteSheetMaker/src/App.cpp
+	<App.h>
+	<InputHandler.h>
+	<Utils.h>
+	<MSGL/msglCore.h>
+	<MSGL/msglGraphics.h>
+	<iostream>
+
+1470086091 source:/home/micah/Documents/Code/SpriteSheetMaker/src/Highlight.cpp
+	<Highlight.h>
+	<Utils.h>
+	<MSGL/msglCore.h>
+
+1470413194 source:/home/micah/Documents/Code/SpriteSheetMaker/src/InputHandler.cpp
+	<InputHandler.h>
+	<App.h>
+	<Utils.h>
+
+1470007926 source:/home/micah/Documents/Code/SpriteSheetMaker/src/SpriteSheetMaker.cpp
+	<MSGL/msglCore.h>
+	<MSGL/msglGraphics.h>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<fstream>
+
+1470417466 /home/micah/Documents/Code/SpriteSheetMaker/include/Utils.h
+	<MSGL/msglCore.h>
+	<MSGL/msglGraphics.h>
+	<App.h>
+

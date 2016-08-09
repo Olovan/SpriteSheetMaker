@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SpriteSheetMaker" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/SpriteSheetMaker" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="images/Spaceman.png" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="msgl" />
+			<Add library="glfw" />
+			<Add library="GL" />
+			<Add library="m" />
+			<Add library="gcc" />
+			<Add library="gcc_s" />
+			<Add directory="libs" />
+		</Linker>
+		<Unit filename="Main.cpp" />
+		<Unit filename="include/App.h" />
+		<Unit filename="include/Highlight.h" />
+		<Unit filename="include/InputHandler.h" />
+		<Unit filename="include/MSGL/MSGL_CORE/ButtonListener.h" />
+		<Unit filename="include/MSGL/MSGL_CORE/Input.h" />
+		<Unit filename="include/MSGL/MSGL_CORE/KeyListener.h" />
+		<Unit filename="include/MSGL/MSGL_CORE/MouseListener.h" />
+		<Unit filename="include/MSGL/MSGL_CORE/SpriteSheetImporter.h" />
+		<Unit filename="include/MSGL/MSGL_CORE/StringUtils.h" />
+		<Unit filename="include/MSGL/MSGL_CORE/Vec2.h" />
+		<Unit filename="include/MSGL/MSGL_CORE/Vec2i.h" />
+		<Unit filename="include/MSGL/MSGL_GRAPHICS/Sprite.h" />
+		<Unit filename="include/MSGL/MSGL_GRAPHICS/SpriteAnimation.h" />
+		<Unit filename="include/MSGL/MSGL_GRAPHICS/Texture.h" />
+		<Unit filename="include/MSGL/MSGL_GRAPHICS/Window.h" />
+		<Unit filename="include/MSGL/msglCore.h" />
+		<Unit filename="include/MSGL/msglGraphics.h" />
+		<Unit filename="include/MSGL_3RD_PARTY/stb_image.h" />
+		<Unit filename="include/Utils.h" />
+		<Unit filename="src/App.cpp" />
+		<Unit filename="src/Highlight.cpp" />
+		<Unit filename="src/InputHandler.cpp" />
+		<Unit filename="src/Utils.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

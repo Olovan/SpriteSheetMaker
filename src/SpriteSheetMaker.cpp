@@ -61,6 +61,10 @@ Vec2 roundToNearestCoord(Vec2 input)
 
 	return retVal;
 }
+Vec2 floorVec2(Vec2 input)
+{
+	return Vec2((int)input.x, (int)input.y);
+}
 //Make Sure that you included a filename
 bool checkPath(int argc, char *argv[])
 {
@@ -100,7 +104,7 @@ void openInPreviewWindow(std::string spriteSheet)
 	{
 		anim.update(0.016);
 		preview.clear();
-		
+
 		anim.currentFrame->draw();
 
 		preview.swapBuffer();
@@ -160,7 +164,7 @@ public:
 		}
 		else if(Input::buttons[GLFW_MOUSE_BUTTON_1])
 		{
-			currentSprite.size = translateCoords(Input::mousePos) - currentSprite.position;
+			currentSprite.size = roundToNearestCoord(translateCoords(Input::mousePos)) - currentSprite.position;
 			currentSprite.setOrigin(currentSprite.origin);
 		}
 	}
@@ -200,7 +204,7 @@ public:
 		}
 
 
-		//If you right click on a Sprite it is deleted 
+		//If you right click on a Sprite it is deleted
 		if(button == GLFW_MOUSE_BUTTON_2)
 		{
 			Vec2 transMousePos = translateCoords(Input::mousePos);
@@ -210,7 +214,7 @@ public:
 				{ //Switch it with the last item and pop off the last item
 					sprite = sprites[sprites.size() - 1];
 					sprites.pop_back();
-				} 
+				}
 			}
 		}
 	}
@@ -239,7 +243,7 @@ public:
 };
 
 
-
+/*
 //MAIN LOOP
 int main(int argc, char *argv[])
 {
@@ -287,3 +291,4 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
+*/
